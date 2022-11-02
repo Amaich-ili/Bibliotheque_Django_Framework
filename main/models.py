@@ -16,6 +16,17 @@ class Liste_livre(models.Model):
     auteur = models.CharField(max_length= 100)
     type = models.CharField(max_length= 100)
     due_back = models.DateField(null=True, blank=True)
+    prête_STATUT = (
+        ('o', 'Disponible'),
+        ('n', 'Non Disponible'),
+    )
+    statut = models.CharField(
+        max_length=15,
+        choices=prête_STATUT,
+        default='o',
+    )
+    cote = models.CharField(max_length= 50, null=True)
+    resume = models.CharField(max_length= 5000,null=True)
 
     class Meta:
         ordering = ['due_back']
