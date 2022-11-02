@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+    {% load static %}
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'main/style.css' %}"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livres</title>
+
+</head>
+<body>  
+    <div class="flex_contain_intro_livre">  
+        <div>
+            <img src="{% static 'images/logo.png' %}" alt="logo de la bibliotheque" class="logo_biblio"/>
+        </div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div>
+                <a href="connexion.html">
+                    <h1 class="button_index button_index1">
+                        connexion
+                    </h1>
+                </a>
+            </div>
+        </div>
+        <p></p>
+        <h1>livre</h1> 
+        <div class="flex_contain_livre">
+        {% for item in livre %}
+                <div>
+                    <button class="button_livre button_livre1"><img src="{{ item.image.url }}" class="image" style="width: 200px ; margin-bottom: 10px;"/></button>
+                    <p>TITRE : {{ item.titre }}</p>
+                    <p>Auteur : {{ item.auteur }}</p>
+                </div>
+        {% endfor %}
+        </div>
+</body>
+</html
