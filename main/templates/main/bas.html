@@ -8,6 +8,7 @@
     <title>{% block title %} Page Accueil {% endblock %}</title>
     <link rel="stylesheet" href="{% static 'main/style.css' %}"/>
 
+
 </head>
 <body>
     <body>  
@@ -36,13 +37,13 @@
     
         <div class="flex_contain_profile">
             <div>
-                <a href="a propos.html" class="texte_blanc">
-                    a propos
+                <a href="{% url 'jeu' %}"  class="texte_blanc">
+                    Jeu de mémoire
                 </a>
             </div>
             <div>
                 <a href="info.html" class="texte_blanc">
-                    info
+                    a propos
                 </a>
             </div>
         </div><br>
@@ -57,13 +58,11 @@
         </div>
     </div><br>
 
-    <h1>chercher</h1>
-
     <div class="flex_contain2">
-        <div><button class="button_index button_index2"><img src="{% static 'images/livre.png' %}" alt="logo de livre" class="logo_index"></button></div>
-        <div><button class="button_index button_index2"><img src="{% static 'images/policier.png' %}" alt="logo de livre" class="logo_index"></button></div>
-        <div><button class="button_index button_index2"><img src="{% static 'images/enfant.png' %}" alt="logo de livre" class="logo_index"></button></div>
-        <div><button class="button_index button_index2"><img src="{% static 'images/livre.png' %}" alt="logo de livre" class="logo_index"></button></div>
+        <div><button class="button_index "><img src="{% static 'images/livre.png' %}" alt="logo de livre" class="logo_index"></button></div>
+        <div><button class="button_index "><img src="{% static 'images/policier.png' %}" alt="logo de livre" class="logo_index"></button></div>
+        <div><button class="button_index "><img src="{% static 'images/enfant.png' %}" alt="logo de livre" class="logo_index"></button></div>
+        <div><button class="button_index "><img src="{% static 'images/livre.png' %}" alt="logo de livre" class="logo_index"></button></div>
     </div>
 
     <div class="flex_contain2">
@@ -95,6 +94,6 @@
     </div><br>
 
     {% endblock %}
-
+ 
 </body>
 </html

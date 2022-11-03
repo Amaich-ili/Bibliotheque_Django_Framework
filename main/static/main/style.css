@@ -32,10 +32,10 @@
 .flex_contain_profile > div {
     text-align: left;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 16px;
     text-decoration: none;
     height: 23px;
-    width: 60px;
+    width: 100px;
 }
 
 .bar_bleu{
@@ -96,10 +96,21 @@
 
 .logo_index{
     height: 100px;
-    width: 100px;
+  
 }
 
+.button_index {
+    transition-duration: 0.3s;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    height: 100px;
+    width: 150px;
+}
 
+.button_index :hover {
+    box-shadow: 0 12px 16px 0 rgba(255, 255, 255, 0),0 17px 50px 0 rgb(255, 255, 255)
+}
 
 /*connecion.html*/
 .input_connexion{
@@ -155,7 +166,6 @@ opacity: 1;
 /*connecion.html*/
 
 
-
 /*inscription.html*/
 .input_inscription{
     width: 200px;
@@ -208,19 +218,17 @@ padding-right: 25px;
 opacity: 1;
 }
 /*jusqu'ici*/
-/*inscription.html*/
 
 /*livre.html*/
 
 .flex_contain_intro_livre{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     background-color: rgba(163, 163, 163, 0.548); 
     
 }
   
 .flex_contain_intro_livre > div {
-    height: 100%;
     width: 100%;
     margin: 10px;
     text-align: center;
@@ -229,37 +237,35 @@ opacity: 1;
 
 .flex_contain_livre {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .flex_contain_livre > div {
-    height: 500px;
-    width: 500px;
-    margin: 10px;
-    text-align: center;
-    font-size: 20px;
-}
+        height: 300px;
+        width: 250px;
+        margin: 10px;
+        text-align: center;
+        font-size: 15px;
+    }
 
 .button_livre {
     padding: 0px 0px;
     text-align: center;
     font-size: 1px;
+    border:none;
     transition-duration: 0.4s;
     cursor: pointer;
     text-decoration: none;
-}
-
+    }
 
 .button_livre1 {
     background-color: rgb(255, 255, 255); 
     color: black; 
 }
-
 .button_livre1 :hover {
     transition-duration: 0.4s;
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.562),0 20px 50px 0 black
-}
-           
-/*livre.html*/
+    }
 
 /*profile.html*/
 
@@ -330,3 +336,4 @@ opacity: 1;
     background-color: rgba(196, 196, 196, 0.555);
 }
 /*profile.html*/
+

@@ -2,12 +2,13 @@
 
 <title>{% block title %} Page Livre {% endblock %}</title>
 {% block content %}
+<div class="flex_contain_livre">
         {% for item in livre %}
-                <div>
-                    <button class="button_livre button_livre1"><img src="{{ item.image.url }}" class="image" style="width: 200px ; margin-bottom: 10px;"/></button>
-                    <p>TITRE : {{ item.titre }}</p>
-                    <p>Auteur : {{ item.auteur }}</p>
-                </div>
-        {% endfor %}
+        <div>
+                <button class="button_livre button_livre1"><img src="{{ item.image.url }}" class="image" style="width: 150px ; height: 200px;; margin-bottom: 10px;"/></button>
+                <p>TITRE : {{ item.titre }}</p>
+                <p>Auteur : {{ item.auteur }}</p>
         </div>
+        {% endfor %}
+</div>
 {% endblock %}

@@ -1,0 +1,15 @@
+{% extends "main/bas.html" %}
+
+<title>{% block title %} Page Livre Policier {% endblock %}</title>
+{% block content %}
+<h1>{{ ls.nom }}</h1>
+<div class="flex_contain_livre">
+        {% for item in ls.liste_livre_set.all %}
+        <div>
+                <button class="button_livre button_livre1"><img src="{{ item.image.url }}" class="image" style="width: 150px ; height: 200px;; margin-bottom: 10px;"/></button>
+                <p>TITRE : {{ item.titre }}</p>
+                <p>Auteur : {{ item.auteur }}</p>
+        </div>
+        {% endfor %}
+</div>
+{% endblock %}

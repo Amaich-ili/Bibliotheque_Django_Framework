@@ -20,9 +20,28 @@ def livre(response):
     return render(response, "main/livre.html", context)
 
 def livre_policier(response):
-    livre = Categories.objects.get(id=1)
-    context = {'livre' : livre}
-    return render(response, "main/livre.html", context)
+    ls = Categories.objects.get(id=1)
+    context = {'ls' : ls}
+    return render(response, "main/policier.html", context)
+
+def livre_science(response):
+    ls = Categories.objects.get(id=2)
+    context = {'ls' : ls}
+    return render(response, "main/science.html", context)
+
+def livre_cuisine(response):
+    ls = Categories.objects.get(id=3)
+    context = {'ls' : ls}
+    return render(response, "main/cuisine.html", context)
+
+def livre_enfant(response):
+    ls = Categories.objects.get(id=4)
+    context = {'ls' : ls}
+    return render(response, "main/enfant.html", context)
+
+def jeu(response):
+    context = {}
+    return render(response, "main/jeu.html", context)
 
 def register_page(request):
     form = CreateUserForm()
@@ -46,7 +65,6 @@ def login_page(request):
             return redirect('index')
         else:
             messages.info(request,"Invalide identifiant ou mot de passe")
-            # return redirect('login')
     context = {}
     return render(request, 'main/login.html', context)
 

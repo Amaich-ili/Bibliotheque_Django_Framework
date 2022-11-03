@@ -1,0 +1,145 @@
+{% extends "main/bas.html" %}
+
+{% load static %}
+<title>{% block title %} Page Jeu {% endblock %}</title>
+
+{% block content %}
+<link rel="stylesheet" href="{% static 'main/style1.css' %}"/>
+    <div>
+      <ul class="cards">
+        <li class="card">
+          <div class="view front-view">
+            <img src="{% static 'images/pochette_livre.jpg' %}" >
+          </div>
+          <div class="view back-view">
+            <img src="{% static 'images/1.jpg' %}" />
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="{% static 'images/pochette_livre.jpg' %}" >
+          </div>
+          <div class="view back-view">
+            <img src="{% static 'images/2.jpg' %}" />
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="{% static 'images/pochette_livre.jpg' %}">
+          </div>
+          <div class="view back-view">
+            <img src="{% static 'images/3.jpg' %}" />
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="{% static 'images/pochette_livre.jpg' %}" >
+          </div>
+          <div class="view back-view">
+            <img src="{% static 'images/4.jpg' %}" />
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="{% static 'images/pochette_livre.jpg' %}" >
+          </div>
+          <div class="view back-view">
+            <img src="{% static 'images/5.jpg' %}" />
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="{% static 'images/pochette_livre.jpg' %}">
+          </div>
+          <div class="view back-view">
+            <img src="{% static 'images/6.jpg' %}" />
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="{% static 'images/pochette_livre.jpg' %}">
+          </div>
+          <div class="view back-view">
+            <img src="{% static 'images/7.jpg' %}" />
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="{% static 'images/pochette_livre.jpg' %}" >
+          </div>
+          <div class="view back-view">
+            <img src="{% static 'images/8.jpg' %}" />
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="{% static 'images/pochette_livre.jpg' %}">
+          </div>
+          <div class="view back-view">
+            <img src="{% static 'images/9.jpg' %}" />
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="{% static 'images/pochette_livre.jpg' %}">
+          </div>
+          <div class="view back-view">
+            <img src="{% static 'images/10.jpg' %}" />
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="{% static 'images/pochette_livre.jpg' %}" >
+          </div>
+          <div class="view back-view">
+            <img src="{% static 'images/11.jpg' %}" />
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="{% static 'images/pochette_livre.jpg' %}">
+          </div>
+          <div class="view back-view">
+            <img src="{% static 'images/12.jpg' %}" />
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="{% static 'images/pochette_livre.jpg' %}">
+          </div>
+          <div class="view back-view">
+            <img src="{% static 'images/13.jpg' %}" />
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="{% static 'images/pochette_livre.jpg' %}" >
+          </div>
+          <div class="view back-view">
+            <img src="{% static 'images/14.jpg' %}" />
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="{% static 'images/pochette_livre.jpg' %}" >
+          </div>
+          <div class="view back-view">
+            <img src="{% static 'images/15.jpg' %}" />
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="{% static 'images/pochette_livre.jpg' %}">
+          </div>
+          <div class="view back-view">
+            <img src="{% static 'images/16.jpg' %}" />
+          </div>
+        </li>
+      </ul>
+    </div>
+    <h1 id="text" class="text_blanc"></h1>
+    <button class="button" id="button" onclick="shuffleCard()">Encors</button>
+    <script type ="text/javascript" src="{% static 'script_jeu.js' %}"></script>
+  {% endblock %}
+ 
+ 
