@@ -19,6 +19,11 @@ def livre(response):
     context = {'livre' : livre}
     return render(response, "main/livre.html", context)
 
+def livre_policier(response):
+    livre = Categories.objects.get(id=1)
+    context = {'livre' : livre}
+    return render(response, "main/livre.html", context)
+
 def register_page(request):
     form = CreateUserForm()
     if request.method == 'POST':
