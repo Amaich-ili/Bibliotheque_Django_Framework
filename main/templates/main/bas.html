@@ -1,1 +1,100 @@
-<h1>hello</h1>
+<!DOCTYPE html>
+<html lang="fr">
+    {% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %} Page Accueil {% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'main/style.css' %}"/>
+
+</head>
+<body>
+    <body>  
+        <img src="{% static 'images/logo.png' %}" alt="logo de la bibliotheque" height="50px" width="100px">
+    
+        <div class="bar_bleu">
+            <div></div>
+        </div>
+        <div class="flex_contain_profile_head">  
+            {% if request.user.is_authenticated %}
+                <div class="texte_blanc">
+                    Bonjour {{ request.user.first_name}}
+                </div>
+                <div>
+                    <a href="{% url 'logout' %}"class="texte_blanc"> Déconnexion </a>
+                </div>
+                {% else %}
+                <div>
+                    <a href="{% url 'login' %}"class="texte_blanc"> Connexion </a>
+                </div>
+                <div>
+                    <a href="{% url 'register' %}" class="texte_blanc"> Inscription </a>
+                </div>
+                {% endif%}
+        </div>
+    
+        <div class="flex_contain_profile">
+            <div>
+                <a href="a propos.html" class="texte_blanc">
+                    a propos
+                </a>
+            </div>
+            <div>
+                <a href="info.html" class="texte_blanc">
+                    info
+                </a>
+            </div>
+        </div><br>
+        <p></p><br>
+
+    {% block content %}
+    <div class="flex_contain2">
+        <div class="texte_blanc">
+            <p>
+                Des tresors de savoir et d'imaginations attendent d'etre decouvert!
+            </p>
+        </div>
+    </div><br>
+
+    <h1>chercher</h1>
+
+    <div class="flex_contain2">
+        <div><button class="button_index button_index2"><img src="{% static 'images/livre.png' %}" alt="logo de livre" class="logo_index"></button></div>
+        <div><button class="button_index button_index2"><img src="{% static 'images/policier.png' %}" alt="logo de livre" class="logo_index"></button></div>
+        <div><button class="button_index button_index2"><img src="{% static 'images/enfant.png' %}" alt="logo de livre" class="logo_index"></button></div>
+        <div><button class="button_index button_index2"><img src="{% static 'images/livre.png' %}" alt="logo de livre" class="logo_index"></button></div>
+    </div>
+
+    <div class="flex_contain2">
+        <div class="texte_blanc">Science</div>
+        <div class="texte_blanc">Policier</div>
+        <div class="texte_blanc">Enfant</div>
+        <div class="texte_blanc">video</div>
+    </div><br>
+    
+    <div class="flex_contain3">
+        <div></div>
+        <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d2790.5333510541755!2d-72.9644093!3d45.
+                         6200209!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sca!4v1666884708918!5m2!1sfr!2sca" 
+            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+
+        <div>
+            <b><p>Bibliotheque du projet final</p></b>
+            <p>1369, avenue la reussite, Montreal(Québec) R3D 1LI</p>
+            <p>&#9742;963-639-396</p>
+            <p>&#128231;monemail@gmail.com</p>
+            <b><p>Heures d'ouverture:</p></b>
+            <p>Lundi au vendredi : 10 h - 21 h</p>
+            <p>Samedi/Dimanche : 10 h - 17 h</p>
+            <p>Prochaine fermeture : 10 novembre</p>
+        </div>
+    </div><br>
+
+    {% endblock %}
+
+</body>
+</html
