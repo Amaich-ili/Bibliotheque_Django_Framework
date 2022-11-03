@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <!-- <link rel="icon" href="{% static 'images/logo.ico' %}" /> -->
+    <link rel="stylesheet" href="{% static 'main/style.css' %}"/>
+    
+</head>
+<body>
+    <div>
+        <div>
+            <img src="{% static 'images/register.png' %}" alt="fond" width="100%" height="auto">
+        </div>
+        <div>
+            <form class="position" action="{% url 'register'%}" method="POST">
+                {% csrf_token %}
+                <strong><label>Nom: </label></strong>
+                    <p></p>
+                {{form.first_name}}
+                    <p></p>
+                <strong><label>Prenom: </label></strong>
+                    <p></p>
+                    {{form.last_name}}
+                    <p></p>
+                <strong><label>Identifiant: </label></strong>
+                    <p></p>
+                    {{form.username}}
+                    <p></p>
+                <strong><label>Courriel: </label></strong>
+                    <p></p>
+                    {{form.email}}
+                    <p></p>
+                <strong><label>Mot de passe: </label></strong>
+                    <p></p>
+                    {{form.password1}}
+                    <p></p>
+                <strong><label> Confirmer le mot de passe: </label></strong>
+                    <p></p>
+                    {{form.password2}}
+                    <p></p>
+                    <p></p>
+                <button class="button_inscription">inscription </button>
+            </form>
+            <div class="form_msg">
+                {% for message in messages %}
+                {{message}}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</body>
+</html>

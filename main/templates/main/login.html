@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="{% static 'main/style.css' %}"/>
+
+</head>
+<body>
+    <div>
+        <div>
+            <img src="{% static 'images/page_connexion.jpg' %}" alt="fond" width="100%" height="auto">
+        </div>
+            <form class="position_connexion" action="{% url 'login' %}" method="POST">
+                {% csrf_token %}
+                <strong><label for="exempleInput1">Identifiant : </label></strong>
+                    <p></p>
+                <input type="" class="input_connexion" name="identifiant" aria-describedby="emailHelp">
+                    <p></p>
+                <strong><label for="exempleInput1"> Mot de passe : </label></strong>
+                    <p></p>
+                <input type="password" class="input_connexion" name="password">
+                    <p></p>
+                <button class="input_connexion"><span>Connexion</span> </button>
+                <p>
+                    <div class="form_msg">
+                        {% for message in messages %}
+                        {{message}}
+                        {% endfor %}
+                    </div>
+                </p><p>
+                    <a href="{% url 'register' %}">
+                        pas de compte? click ici!
+                    </a>
+                </p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
