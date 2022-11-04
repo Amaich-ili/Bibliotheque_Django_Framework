@@ -80,14 +80,3 @@ def logout_user(request):
 def jeu_py(request):
     return render(request, 'main/jeu_py.html', {})
 
-
-# @csrf_exempt
-# def jeu_py(request):
-#     if request.method == 'POST':
-#         return JsonResponse({"data" : data})
-
-# @csrf_exempt
-# def jeu_py(request):
-#     if request.method == 'POST':
-#         data = json.loads(request.body)
-#     return JsonResponse({"data": "data"})
