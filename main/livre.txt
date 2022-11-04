@@ -1,0 +1,60 @@
+1,Bras de fer,images/1.jpg,Malo Mo,08/23/1965,Nigerienne
+1,La paix des mÃ©nages,images/2.jpg,Beaton M. C,05/22/1970,Englaise
+1,Eaux troubles,images/3.jpg,Beaton M. C,05/22/1970,Englaise
+1,Son espionne royale,images/4.jpg,Bowen Rhys,08/14/1977,Alemande
+1,Modus operandi,images/5.jpg,Payne Suzan,01/07/1977,Fracaise
+1,MÃ©nage de printemps,images/6.jpg,Beaton M. C,12/05/1970,Englaise
+1,Les secrets de Fleat Hous,images/7.jpg,Riley Lucinda,12/15/1983,Francaise
+1,Vies et mort de Lucy Loveles,images/8.jpg,Shepherd-Robinson Laura,08/27/1984,Canadienne
+1,Picture NouveautÃ©,images/9.jpg,Martineau Maureen,11/05/1954,Italienne
+1,Monsieur HÃ¤mmerli,images/10.jpg,Ste-Marie Richard,03/23/1966,Espagnole
+1,Sara : Elle veille sur vous,images/11.jpg,Forge Sylvain,01/07/1973,francaise
+1,Meurtre Ã  Sunset Hall,images/12.jpg,Swann Leonie,01/25/1965,Japonaise
+1,Le destin de l'ours,images/13.jpg,Correnti Dario,04/04/1981,colombienne
+1,L'illusion du mal,images/14.jpg,Pulixi Piergiorgio,06/26/1952,Francaice
+1,Summit Mo MalÃ¸,images/15.jpg,Malo Mo,08/23/1965,Nigerienne
+2,Sciences,images/16.jpg,Setford Steve,09/04/1957,Alemande
+2,150 idÃ©es reÃ§ues sur la science,images/17.jpg,Camara Christian,09/17/1984,Espagnole
+2,La mÃ©decine,images/18.jpg,Parker Steve,12/07/1980,Italienne
+2,La technologie,images/19.jpg,Turney Jon,08/09/1962,Alemande
+2,La science en 30 secondes,images/20.jpg,Goldsmith Mike,04/02/1971,Nigerienne
+2,Les sciences,images/21.jpg,Farndon John,03/07/1965,Malienne
+2,L'impossible dialogue,images/22.jpg,Gingras Yves,11/14/1969,Ameriquane
+2,Science,images/23.jpg,Sparrow Giles,09/28/1984,Autichienne
+2,Mon album des sciences,images/24.jpg,Professeur GÃ©nius,05/28/1951,Nigerienne
+2,Les sciences,images/25.jpg,Lucas Florian,06/15/1957,Alemande
+2,Si la science m'Ã©tait contÃ©e,images/26.jpg,Chassay Jean-FranÃ§ois,09/17/1980,Englaise
+2,L'Ã©popÃ©e de la science arabe,images/27.jpg,Jacquart Danielle,03/30/1977,Francaise
+2,DÃ©tournement de science,images/28.jpg,Vigoureux Jean-Marie,10/15/1952,Prtugaise
+2,Des objets qui ont du mÃ©tier,images/29.jpg,Leblanc JoÃ«l,02/07/1958,Canadienne
+2,Il Ã©tait une fois... QuÃ©bec science,images/30.jpg,Lemieux Raymond,12/26/1974,Australienne
+3,Naturopathie,images/31.jpg,Comlan HÃ©lÃ¨ne,06/21/1966,Malienne
+3,Sans gluten,images/32.jpg,Tombini Marie-Laure,11/04/1982,Colombienne
+3,Plancha,images/33.jpg,Tombini Marie-Laure,11/04/1982,Colombienne
+3,PÃ¢te feuilletÃ©e,images/34.jpg,Lebrun Delphine,07/19/1980,Malienne
+3,Mes recettes pour la rando et le vÃ©loi,images/35.jpg,Lebrun Delphine,07/19/1980,Malienne
+3,Cuisiner avec ce qu'on a,images/36.jpg,Langlois Jessika,10/10/1978,Malienne
+3,Autour du monde en 80 boulettes,images/37.jpg,Escoffier Jean-NoÃ«l,03/30/1959,Australienne
+3,RÃ©confort sans effort,images/38.jpg,O'Gleman GeneviÃ¨ve,06/06/1972,Espaniole
+3,Salades,images/39.jpg,Gomez Gema,04/18/1970,Belge
+3,DÃ©vorer les lÃ©gumineuses!,images/40.jpg,Auger Ãˆve-Lyne,12/10/1969,Australienne
+3,Trop bon!,images/41.jpg,Desjardins Anne,09/07/1957,Belge
+3,Mes carnets de saison,images/42.jpg,Di Stasio JosÃ©e,10/23/1969,Australienne
+3,C'est dans le sac!,images/43.jpg,D'Amour JosÃ©e,10/09/1985,Espaniole
+3,Gastronogeek,images/44.jpg,Villanova Thibaud,10/15/1976,Allemande
+3,Sushis,images/45.jpg,Tombini Marie-Laure,02/12/1973,Ameriquane
+4,Mon NoÃ«l magique,images/46.jpg,Anctil Gabriel,07/06/1978,Ameriquane
+4,Tu veux construire une bibliotheque?!,images/47.jpg,Leslie Lindsay,10/02/1962,Espaniole
+4,Mon Halloween trop gÃ©niale!,images/48.jpg,Anctil Gabriel,05/10/1960,Belge
+4,Le monde de Maxime,images/49.jpg,PesloÃ¼an Lucile,10/06/1952,Italienne
+4,Monsieur Je-sais-tout,images/50.jpg,Escoffier MichaÃ«,05/25/1966,Ameriquaine
+4,Jours de fÃªte,images/51.jpg,Garibal Alexandra,02/23/1963,Espaniole
+4,Charabia dÃ©teste les samedis,images/52.jpg,Denault Sabrina,07/17/1959,Canadienne
+4,C'est la rentrÃ©e !,images/53.jpg,Schulze Bianca,03/28/1983,Espaniole
+4,Walter enquÃªte au thÃ©Ã¢tre,images/54.jpg,Blanchut Fabienne,03/01/1961,Belge
+4,Alakazoum!,images/55.jpg,Leroy Jean,12/03/1980,Espaniole
+4,Les Monsieur Madame se rÃ©galent,images/56.jpg,Hargreaves Roger,03/17/1972,Canadienne
+4,Une montagne de feuilles,images/57.jpg,Munsch Robert,04/20/1954,Italienne
+4,Les baleines bleues,images/58.jpg,Bergeron Alain M,10/01/1970,Canadienne
+4,La course au canard,images/59.jpg,Bergeron Alain M,10/01/1970,Canadienne
+4,NouveautÃ©,images/60.jpg,Gagnon Julia,10/01/1970,Canadienne

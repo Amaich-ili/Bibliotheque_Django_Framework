@@ -43,6 +43,10 @@
 .card .back-view{
   transform: rotateY(-180deg);
 }
+
+/* .card .back-view1{
+  transform: rotateY(-180deg);
+} */
 .card.flip .back-view{
   transform: rotateY(0);
 }

@@ -55,7 +55,7 @@
 .flex_contain2 {
     display: flex;
     flex-wrap: nowrap;
-    background-color: rgb(8, 0, 53); 
+    background-color: rgb(64, 81, 47); 
 }
     
 .flex_contain2 > div {
@@ -227,18 +227,18 @@ opacity: 1;
     background-color: rgba(163, 163, 163, 0.548); 
     
 }
-  
+   
 .flex_contain_intro_livre > div {
     width: 100%;
     margin: 10px;
     text-align: center;
     font-size: 60px;
-}
+} 
 
 .flex_contain_livre {
     display: flex;
     flex-wrap: wrap;
-}
+} 
 
 .flex_contain_livre > div {
         height: 300px;
@@ -261,79 +261,55 @@ opacity: 1;
 .button_livre1 {
     background-color: rgb(255, 255, 255); 
     color: black; 
-}
-.button_livre1 :hover {
+} 
+.button_livre1 :hover { 
     transition-duration: 0.4s;
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.562),0 20px 50px 0 black
     }
 
-/*profile.html*/
-
-.image_de_profile {
-        border-radius: 50%;
-        cursor: pointer;
-        height: 120px;
-        width: 120px;
-        text-align: center;
-        transition-duration: 0.5s;
-        
-        
-}
-.image_de_profile:hover {
-        border-radius: 6px;
-}
-
-.flex_contain_image{
-    border-radius: 6px;
+.cards, .card{
     display: flex;
-    position: absolute;
-    top: 100px;
-    margin: 50px 18%;
-    width: 300px;
-    height: 300px;
-    background-color: rgb(8, 0, 53);
-
-}
-    .flex_contain_image > div {
-        padding: 80px 90px;
-        text-decoration: none;
-    }
-
-.texte_blanc_compte {
-    color: white;
-    text-decoration: none;
-    font-size: 39px;
-}
-
-.information_profile {
-    border-radius: 6px;
-    position: absolute;
-    top: 100px;
-    margin: 50px 660px;
-    width: 900px;
-    height: 300px;
-    background-color: rgb(8, 0, 53);
-}
-
-    .information_profile > div {
-        text-decoration: none;
-        font-size: 18px;
-        padding: 10px 16px;
-    }
-
-.livre_profile{
-    display: flex;
-    border-radius: 6px;
-    position: absolute;
-    margin: 500px 310px;
-    width: 1250px;
-    height: 326px;
-    padding: 14px 16px;
-}
-.livre_profile > div {
+    align-items: center;
+    justify-content: center;
     margin: 10px;
-    text-align: left;
-    background-color: rgba(196, 196, 196, 0.555);
+  }
+  .cards{
+    height: 400px;
+    width: 1300px;
+    flex-wrap: wrap;
+    margin: 200px;
+    justify-content: space-between;
+  }
+  .cards .card{
+    cursor: pointer;
+    position: relative;
+    transform-style: preserve-3d;
+    height: 200px;
+    width: 130px;
+  }
+ 
+  .card .front-view img{
+    opacity: 1;
+    width: 143px;
+    border-radius: 9px;
+  }
+
+  .text_blanc {
+    color: white;
+  }
+
+.image_jeu{
+    opacity: 1;
 }
-/*profile.html*/
+  .button_jeu{
+    opacity: 1;
+    cursor: pointer;
+    width: 100%;
+    margin: 0px;
+    
+  }
+    .button_jeu :hover {
+        transition-duration: 0.2s;
+        box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.562),0 20px 50px 0 black;
+    }
 

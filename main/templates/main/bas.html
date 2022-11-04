@@ -42,8 +42,8 @@
                 </a>
             </div>
             <div>
-                <a href="info.html" class="texte_blanc">
-                    a propos
+                <a href="{% url 'jeu2' %}" class="texte_blanc">
+                    jeu de devinette
                 </a>
             </div>
         </div><br>
@@ -53,23 +53,23 @@
     <div class="flex_contain2">
         <div class="texte_blanc">
             <p>
-                Des tresors de savoir et d'imaginations attendent d'etre decouvert!
+                Des trésors de savoir et d'imaginations attendent d'être découverts!
             </p>
         </div>
     </div><br>
 
     <div class="flex_contain2">
-        <div><button class="button_index "><img src="{% static 'images/livre.png' %}" alt="logo de livre" class="logo_index"></button></div>
-        <div><button class="button_index "><img src="{% static 'images/policier.png' %}" alt="logo de livre" class="logo_index"></button></div>
-        <div><button class="button_index "><img src="{% static 'images/enfant.png' %}" alt="logo de livre" class="logo_index"></button></div>
-        <div><button class="button_index "><img src="{% static 'images/livre.png' %}" alt="logo de livre" class="logo_index"></button></div>
+        <div> <a href="{% url 'cuisine' %}" class="button_index "><img src="{% static 'images/cuisine.png' %}" alt="logo de livre" class="logo_index"></a></div>
+        <div><a href="{% url 'policier' %}" class="button_index "><img src="{% static 'images/policier.png' %}" alt="logo de livre" class="logo_index"></a></div>
+        <div><a href="{% url 'enfant' %}" class="button_index "><img src="{% static 'images/enfant.png' %}" alt="logo de livre" class="logo_index"></a></div>
+        <div><a href="{% url 'science' %}" class="button_index "><img src="{% static 'images/science.png' %}" alt="logo de livre" class="logo_index"></a></div>
     </div>
 
     <div class="flex_contain2">
-        <div class="texte_blanc">Science</div>
+        <div class="texte_blanc">Cuisine</div>
         <div class="texte_blanc">Policier</div>
-        <div class="texte_blanc">Enfant</div>
-        <div class="texte_blanc">video</div>
+        <div class="texte_blanc">Conte Enfant</div>
+        <div class="texte_blanc">Science</div>
     </div><br>
     
     <div class="flex_contain3">

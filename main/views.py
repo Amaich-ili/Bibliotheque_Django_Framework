@@ -3,12 +3,17 @@ from urllib import request
 from django.shortcuts import render, redirect
 from django.contrib.auth.models import User
 from django.http import HttpResponse
-from django. contrib.auth.decorators import login_required
+# from django. contrib.auth.decorators import login_required
 from django.urls import reverse
 from django.contrib.auth import login, authenticate, logout
 from django.contrib import messages
+from django.http import HttpResponse
+from django.http import JsonResponse
+from django.views.decorators.csrf import csrf_exempt
+import json
 from .models import *
 from .forms import *
+from . import dico
 
 
 def index(response):
@@ -71,3 +76,18 @@ def login_page(request):
 def logout_user(request):
     logout(request)
     return redirect('index')
+
+def jeu_py(request):
+    return render(request, 'main/jeu_py.html', {})
+
+
+# @csrf_exempt
+# def jeu_py(request):
+#     if request.method == 'POST':
+#         return JsonResponse({"data" : data})
+
+# @csrf_exempt
+# def jeu_py(request):
+#     if request.method == 'POST':
+#         data = json.loads(request.body)
+#     return JsonResponse({"data": "data"})
