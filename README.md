@@ -1,4 +1,4 @@
-##  Nom:
+
 # Site pour une Bibliothèque dans un environnement Framework Django.
 ## Description:
 * LE site a pour but de faciliter la recherche d'un livre par catégorie pour l'utilisateur.
