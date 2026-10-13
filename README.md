@@ -23,8 +23,7 @@ qui permet un développement rapide de sites internet, sécurisés, et maintenab
 
 ## Auteurs et reconnaissance:
 Ilias Amaich
-Redouane Benomar
-Ghalous Fairouz
+
 # Remerciment:
 On tient à remercier notre professeur Monsieur Keven Presseau-St-Laurent, qui nous a permis de rajouter à nos connaissances 
 le Framework Django et nous a aider dans nos recherches.
