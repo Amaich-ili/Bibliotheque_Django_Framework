@@ -1,7 +1,7 @@
 
 # Site pour une Bibliothèque dans un environnement Framework Django.
 ## Description:
-* LeE site a pour but de faciliter la recherche d'un livre par catégorie pour l'utilisateur.
+* Le site a pour but de faciliter la recherche d'un livre par catégorie pour l'utilisateur.
 * Faciliter l'enregistrement de l'utilisateur, s'il n’existe pas dans la base de données.
 * Un jeu de cartes est proposé, ayant des images de livres, pour rendre l'accès à ce site plus agréable.
 ## Installation:
